@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<!-- TemplateBeginEditable name="doctitle" -->
+    <title>Untitled Document</title>
+    <!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+    <style>
+		@font-face {
+	  font-family: 'Electrolize';
+	  font-style: normal;
+	  font-weight: 400;
+	  src: local('Electrolize'), local('Electrolize-Regular'), url(http://themes.googleusercontent.com/static/fonts/electrolize/v2/DDy9sgU2U7S4xAwH5thnJ4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
+		}
+		body {    
+			background-color: #A1C5C3;
+		}
+		#playagain {
+		width: 25%;
+		height: auto;
+		border-style:outset; border-color: #2F9080;
+    	border-width: 5px;
+		text-align: center;
+		margin: auto;
+		}
+		#youlost {
+			color: white;
+			text-align: center;
+			font-family: 'Electrolize';
+			font-size: 48px;
+		}
+	</style>
+	</head>
+	<body>
+    <br> <br>
+      <br> <br>
+      <br> <br>
+      <br> <br>
+      <br> <br>
+      <br> <br>
+      
+      <p id="youlost"> YOU LOST! </p>
+      <br> <br>
+      <br> <br>
+      <br> <br>
+      <br> <br>
+      <br> <br>
+      <br> <br>
+      <br> <br>
+    <div class="footer">
+		<footer>
+        	<a href="Litter_Busters_Start_Screen.html">
+        		<p id= "playagain"> PLAY AGAIN </p>
+            </a>
+        </footer>
+     </div>
+	</body>
+</html>

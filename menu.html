@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Litter Buster game</title>
+		<style>
+			#Menu{
+			background-color:#303030;
+			background-color:transparent;
+			}
+			button{
+			font-size:19px;
+			}
+			p{
+			font-size:28px;
+			text-align: center;
+			}
+			#close{
+			text-align: right;
+			font-size:19px;
+			background-color:#d3d3d3;
+			
+			}
+		</style>
+		</head>
+		<body>
+	  <button onclick="menuFunction()" id="button">Menu</button>
+	 
+ <div id="Menu">
+	<p id="test"><a href="Choose_Your_Character.html">Home Screen<a/></p>
+	<p id="test2"><a href="Litter_Buster_Directions.html">Directions<a/></p>
+	<p id="test"><a href=<!--input start screen html code-->Start New Game<a/></p>
+	<p> <b><i>Remember</b></i> that you can scroll to continue down the website but that <u>will not</u> end the game </p>
+	<button onclick="resumeGamefunction()" ><i>Resume Game</i></button>
+</div>
+<script src="Litter_Buster_Timer.js"></script>
+<script>
+var hidden= document.getElementById("Menu").style.visibility = "hidden";
+hidden;
+function menuFunction() {
+  var show= document.getElementById("Menu").style.visibility = "visible";
+  show;
+  clearInterval(countdownTimer)=clearInterval();
+}
+
+function resumeGamefunction() { 
+	var hidden2= document.getElementById("Menu").style.visibility = "hidden";
+	hidden2;
+	clearInterval()=clearInterval(countdownTimer);
+}
+
+
+	 
+	
+  </script>
+		
+		</body>
+</html>
+<!DOCTYPE html> 

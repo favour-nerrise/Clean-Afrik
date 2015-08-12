@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<script type="text/javascript">
+var girl= (document.getElementById("girl"); 
+
+function moveGirl(){
+	var arrowPress = function (e){
+		var x = event.which || event.keyCode;
+		if (x == 37) {
+	moveLeft();
+	}
+}
+/*var moveGirl= function(){
+    noStroke();
+    for(var i = 0; i < 4; i++){
+	for(var j = 1; j < 4; j++){
+	if(board[i][j-1] == 0 && board[i][j] !=0) {
+	board[i][j-1] =  board[i][j];
+	board[i][j] = 0;
+	}
+	if (board[i][j-1] ==  board[i][j]){
+    board[i][j-1] = board[i][j-1] + board[i][j];
+	board[i][j] = 0;
+	}
+};
+
+var arrowPress = function (e){ //This function is called when a key is pressed. How will you distinguish between the keys?
+    console.log("arrowpress"); //Prints arrowpress in the console. This is for testing purposes.
+	var x = event.which || event.keyCode;
+	if (x == 37) {
+	moveLeft();
+}*/
+</script>
+
+<body>
+
+</body>
+</html>

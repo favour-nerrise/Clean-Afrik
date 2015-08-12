@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> StartScreen </title>
+<style>
+	@font-face {
+  font-family: 'Electrolize';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Electrolize'), local('Electrolize-Regular'), url(http://themes.googleusercontent.com/static/fonts/electrolize/v2/DDy9sgU2U7S4xAwH5thnJ4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
+	}
+	.center {
+    margin: auto;
+	width: 1150px;
+    height: 597px;
+	background-color: #A1C5C3;
+    border:1px solid black;
+	}
+	
+	#litterbuster { 
+	color: white;
+	text-align: center;
+	font-family: 'Electrolize';
+	font-size: 78px;
+	}
+	#start {
+		width: 10%;
+		height: auto;
+		border-style:outset; border-color: #2F9080;
+    	border-width: 5px;
+		text-align: center;
+		margin-left: 500px;
+	}
+	#directions {
+		width: 20%;
+		height: auto;
+		border-style:outset; border-color: #2F9080;
+    	border-width: 5px;
+		text-align: center;
+		display: inline-block;
+		margin-left: 207px;
+	}
+	#levels {
+		width: 15%;
+		height: auto;
+		border-style:outset; border-color: #2F9080;
+    	border-width: 5px;
+		text-align: center;
+		display: inline-block;
+		margin-left: 18px;
+	}
+	#options {
+		width: 15%;
+		height: auto;
+		border-style:outset; border-color: #2F9080;
+    	border-width: 5px;
+		text-align: center;
+		display: inline-block;
+		margin-left: 18px;
+	}
+	#beerbottle {
+		/*margin-left: -0%;*/
+		margin-top: -50%;
+		-webkit-animation: mymove 3s infinite; /* Chrome, Safari, Opera */ 
+	}
+	@-webkit-keyframes mymove {
+    from {margin-top: -100px;}
+    to {margin-top: 70px;}
+	}
+	@-webkit-keyframes mymovetwo {
+    from {margin-top: -50px;}
+    to {margin-top: 70px;}
+	}
+	#beerbottletwo {
+		/*margin-left: -0%;*/
+		
+		margin-top: -50%;
+		-webkit-animation: mymovetwo 3s infinite; /* Chrome, Safari, Opera */ 
+		/*-webkit-animation-delay: 2s;*/
+	}
+	#newspaper {
+		float: middle;
+		margin-top: -70%;
+		-webkit-animation: mymove 3s infinite;
+	}
+	#candywrapper { 
+		margin-top: -100%;
+		margin-left: -30%;
+		-webkit-animation: mymove 3s infinite;
+	}
+	#paper {
+		margin-top: -90%;
+		margin-left: -30%;
+		-webkit-animation: mymove 3s infinite;
+	}
+@media (min-width: 0px) and (max-width: 750px){
+}
+</style>
+</head>
+<!--<canvas id="myCanvas" width="1150" height="597" style="border:1px solid"></canvas>-->
+<body>
+<!-- This is a comment -->
+<!-- Start here -->
+    <div data-role="page" id="choose" class="center"> 
+    	<header> 
+        <h1 id= "litterbuster"> Litter Busters </h1>
+    	</header>
+    	<section>
+        	<article>
+            	<div style="height:50px">
+                	<img id= "beerbottle" src="http://makepixelart.com/peoplepods/files/images/1867424.original.png" alt="beerbottle">
+                </div>
+                <div style="height:50px">
+                	<img id= "beerbottletwo" src="http://makepixelart.com/peoplepods/files/images/1867424.original.png" alt="beerbottle">
+                </div>
+                <div style="height:50px">
+                    <img id="newspaper" src="http://makepixelart.com/peoplepods/files/images/1867523.original.png" alt="newspaper">
+                 </div>
+                    <div style="height:50px">
+                    <img id="candywrapper" src= "http://makepixelart.com/peoplepods/files/images/1868450.original.png" alt="candywrapper">
+                    </div>
+                    <!--<img id="paper" src"http://makepixelart.com/peoplepods/files/images/1868454.original.png" alt="paper">-->
+                    <div style="height:50px">
+                    <img id="paper" src= "http://makepixelart.com/peoplepods/files/images/1868454.original.png" alt="paper">
+            	</div>
+            	<aside>
+                	
+            	</aside>
+            </article>
+    	</section>
+      <br> <br>
+        <footer>
+        	   <a href="Video.html">
+               <p id= "start"> START </p>
+               </a>
+               <a href="Litter_Busters_Directions.html">
+               <p id= "directions" > DIRECTIONS </p>
+               </a>
+               <p id= "levels"> LEVELS </p>
+               <p id= "options"> OPTIONS </p>
+        </footer>
+        </div>
+</body> 
+</html>

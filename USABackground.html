@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">
+	<!--#girl.onmousedown = "USA_Background.html";-->
+	var jumping = false;
+	function jump() {
+                        
+  if (!jumping) {
+    jumping = true;
+    setTimeout(land, 500);
+  }
+}
+	function land() {
+                        
+  jumping = false;
+}
+</script>
+<style>
+	body{background-color: White}	
+	<!--p:first-letter { border-left: 1em solid red; }-->
+	
+</style>
+	
+<body>
+
+<!--Character Page-->
+<div data-role="page" id="USA">
+
+<div stlye="50px" id="images">
+		<img src="LincolnMemorial.png" alt="lincoln" height="710" width="1100" style="position: relative; top: 0; left: 0;"/>
+		<img src="Tree.png" alt="treeone" height="300" width="600" style="position: absolute; top: 417px; left: 550px;"/>
+		<img src="Tree.png" alt="treetwo" height="50" width="50" style="position: absolute; top: 417px; left: -50px;"/>		
+		<a href="#startGame"><img id="girl" src="Girl.png" height="200" width="180" class="character" alt="girl"  style="position: absolute; top: 417px; left:150px;"></a>
+</div>
+</div> 				
+</body>
+</html>
+

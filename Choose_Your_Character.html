@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<canvas id="myCanvas" width="1150" height="597" style="border:1px solid"></canvas>
+<head>
+	<title> Choose Your Character! </title>
+    <script type="text/javascript">
+	<!--#girl.onmousedown = "USA_Background.html";-->
+	function GirlGame() {
+    	document.getElementById("#girl") = "USA_Background.html";
+	}
+	</script>
+</head>
+
+<style>
+	canvas {
+		padding: 0;
+    	margin: auto;
+    	display: block;
+	}
+	#choosecharacter {
+		font: 'Electrolize';
+		font-size: 48px;
+	}
+	body{background-color: PaleTurquoise}
+.center {
+    margin: auto;
+    width: 60%;
+    border:3px solid #8AC007;
+    padding:10px;
+	position:fixed;
+	bottom: 150px;
+	right: 260px;
+	
+}
+#character {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px; 
+}
+
+#images{
+    text-align: center;
+}
+	
+	
+</style>
+	
+<body>
+
+<!--Character Page-->
+<div data-role="page" id="choose" class="center"> 
+<p id= "choosecharacter"><font size="7"><font color="purple"><center> Choose Your Character! </center></font></font></p>
+
+<div id="images">
+		<a href="#startGame"><img id="boy" src = "images/Boy.png" height="200" width="150" class="character" alt="boy"></a>
+		<font id= "or" size="6"><font color="chocolate"> OR </font></font>
+		<a href="usa.html"><img id="girl" src="images/Girl.png" height="200" width="180" class="character" alt="girl"></a>
+</div>
+	
+</div>  				
+
+<!--Game Page-->
+<div data-role="page" id="startGame">
+</div>
+
+</body>
+</html>
+
