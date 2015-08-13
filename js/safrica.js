@@ -138,7 +138,7 @@ var update = function (modifier) {
 			hero.speed = hero.speed * -1;
 				}
 	//Level 7
-	if (monstersCaught == 7
+	if (monstersCaught == 70
 	&& seconds > 0 
 	) {
 		window.location.href = 	"YouWin.dwt";
